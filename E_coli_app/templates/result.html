@@ -1,0 +1,33 @@
+<!-- result.html  -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <link rel="stylesheet"  href="{% static 'styles.css' %}">
+    <style>
+        
+        h1{
+            color: #faf5f5; /* set text color */
+        }
+    
+    
+        h2{
+                color: #a50505; /* set text color */
+            }
+        h3{
+                color: #ebdede; /* set text color */
+            }
+      </style>
+            
+
+</head>
+<body class="output-page">
+    <h1>Result</h1>
+    <h3>Input DNA sequence: {{ current_sequence.sequence }}</h3>
+    <h2>Is It Promoter Gene ?: {% if current_sequence.affected_by_ecoli %}YES{% else %}NO{% endif %}</h2>
+    <a href="{% url 'previous_results' %}">.... previous_results ....</a>
+
+</body>
+</html>

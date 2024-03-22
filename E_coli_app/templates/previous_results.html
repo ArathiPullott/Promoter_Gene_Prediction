@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Previous Results</title>
+    <style>
+        table {
+            margin: 0 auto; /* Set left and right margins to auto to center */
+              }
+        th {
+            text-align: center; /* Dark background color */
+            padding:10px ;
+           }
+        body {
+            color: rgb(8, 7, 7); /* Set text color to white */
+            text-align: center; /* Center align text */
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Previous Results</h1>
+    {% if result_html %}
+        {{ result_html|safe }}
+    {% else %}
+        <p>No previous results available</p>
+    {% endif %}
+</body>
+</html>
