@@ -47,3 +47,11 @@ Views: Implement views for rendering HTML templates and processing
 user inputs.
 Models: Define a model to store DNA sequences in the database.
 Forms: Create a form for user input validation.
+![Index](https://github.com/ArathiPullott/Promoter_Gene_Prediction/assets/120770265/aa2a2b7e-40d2-46d4-8224-8afc8f6c36b5)
+![input](https://github.com/ArathiPullott/Promoter_Gene_Prediction/assets/120770265/eb18169b-6c41-4d65-a6de-15e2688d444f)
+![result](https://github.com/ArathiPullott/Promoter_Gene_Prediction/assets/120770265/fae4283e-0544-4380-b390-14e731fb5bc3)
+![previous_data](https://github.com/ArathiPullott/Promoter_Gene_Prediction/assets/120770265/96903344-32d2-494a-a8db-dc83bc9672b5)
+
+
+
+
