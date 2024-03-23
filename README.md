@@ -4,11 +4,11 @@ a DNA sequence to function as a promoter are not known, machine learning and dee
 the considered problem.
 
 # Objective
-The purpose of this project is to develop a system for classifying DNA promotor genes to determine if they are affected by a common bacteria, Escherichia coli(E.coli) and will be used for taking precautions from these microbes and will be able to fed into another 
+The purpose of this project is to develop a system for Promoter gene prediction for E coli infection detection and will be used for taking precautions from these microbes and will be able to fed into another 
 high level DNA driven problems.
 
 # Key Components
-• The project aims to develop a system for classifying DNA promoter genes to determine if they are affected by E.coli infection.
+• The project aims to develop a system for Promoter gene prediction for E coli infection detection.
 • The system includes a deep learning MLP (Multi-Layer Perceptron) model for  promoter gene classification.
 • A Django web application will be created to provide a user-friendly interface for inputting DNA sequences and obtaining classification results.
 
