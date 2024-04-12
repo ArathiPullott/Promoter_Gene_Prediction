@@ -37,19 +37,27 @@ Accuracy
 # Django Web Application Design: 
  • Frontend: 
 Home Page: Contains a form to input DNA sequences. Provide a default sample DNA sequence for users who are unfamiliar with input format.
+
 Result Page: Displays the classification result.
+
 Database View Page: Shows all input DNA sequences stored in the database.
 Design using HTML and CSS.
+
 • Backend: 
-Django Framework: Utilize Django for handling HTTP requests, routing
-and views.
-Views: Implement views for rendering HTML templates and processing 
-user inputs.
+Django Framework: Utilize Django for handling HTTP requests, routing and views.
+
+Views: Implement views for rendering HTML templates and processing  user inputs.
+
 Models: Define a model to store DNA sequences in the database.
+
 Forms: Create a form for user input validation.
+# HOME PAGE
 ![Index](https://github.com/ArathiPullott/Promoter_Gene_Prediction/assets/120770265/aa2a2b7e-40d2-46d4-8224-8afc8f6c36b5)
+
 ![input](https://github.com/ArathiPullott/Promoter_Gene_Prediction/assets/120770265/eb18169b-6c41-4d65-a6de-15e2688d444f)
+# RESULT PAGE
 ![result](https://github.com/ArathiPullott/Promoter_Gene_Prediction/assets/120770265/fae4283e-0544-4380-b390-14e731fb5bc3)
+# DATABASE VIEW PAGE
 ![previous_data](https://github.com/ArathiPullott/Promoter_Gene_Prediction/assets/120770265/96903344-32d2-494a-a8db-dc83bc9672b5)
 
 
